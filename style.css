@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    padding: 0 8%;
+    position: relative;
+}
+
+.logo {
+    width: 123px;
+    position: relative;
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background: black;
+}
+
+.nav-links {
+    padding: 28px 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    position: relative;
+}
+
+.btn {
+    background: #ff3d00;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-shadow: -5px -10px 20px greenyellow;
+    
+}
+
+.fa {
+    padding: 10px;
+
+}
+
+.fb {
+    padding: 10px;
+    font-size: 85px;
+}
+
+.fc {
+    padding-top: 70px;
+}
+
+.nav-links li a::after {
+    content: '';
+    background: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+.ba {
+    margin-top:50px;
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 40px;
+    border: 2px solid white;
+    background:#ff3d00;
+}
+
+.ba a{
+    letter-spacing: 4px;
+    transition: 0.2s;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 15px black;
+}
+
+.ba:hover{
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+    transition-delay: 0.15s;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100%;
+    
+}
+.nav_video{
+    width:12%;
+    float:left;
+}
+#slider img{
+    width: 1450px;
+    margin: 30px 35px;
+    
+}
+#slider{
+    background-color: #212329; 
+}

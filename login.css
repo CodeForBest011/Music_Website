@@ -1,0 +1,41 @@
+body{
+     background-image: url(0l0kzYB.jpg);
+     background-size: cover;
+     background-position: center;
+}
+#Login{
+    margin: 0;
+    padding: 0;
+   
+}
+.loginform{
+    width: 500px;
+    box-shadow: 0 0 30px 0 rgba(535,31,2,1);
+    background-color: white;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.loginform h1{
+    color: lightcoral;
+    margin-bottom: 30px;
+}
+.boxlog{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 98%;
+    border: 1px solid black;
+    outline: none;
+}
+.Loginbtn{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 4px solid white;
+}
+.Loginbtn:hover{
+    cursor: pointer;
+    background-color: orangered;
+    transition: all 0.4s ease-out;
+}
